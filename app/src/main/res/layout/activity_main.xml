@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <Button
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:id="@+id/btn1"
+            android:textSize="36sp"
+            android:onClick="Check"
+            android:textColor="@color/green"
+            android:backgroundTint="@color/gray"
+            app:strokeColor="@color/green"
+            app:strokeWidth="3dp">
+
+        </Button>
+        <Button
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_marginStart="11dp"
+            android:id="@+id/btn2"
+            android:textSize="36sp"
+            android:onClick="Check"
+            android:textColor="@color/green"
+            android:backgroundTint="@color/gray"
+            app:strokeColor="@color/green"
+            app:strokeWidth="3dp">
+
+        </Button>
+        <Button
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_marginStart="11dp"
+            android:id="@+id/btn3"
+            android:textSize="36sp"
+            android:onClick="Check"
+            android:textColor="@color/green"
+            android:backgroundTint="@color/gray"
+            app:strokeColor="@color/green"
+            app:strokeWidth="3dp">
+
+        </Button>
+
+        <Button
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:id="@+id/btn4"
+            android:textSize="36sp"
+            android:onClick="Check"
+            android:textColor="@color/green"
+            android:backgroundTint="@color/gray"
+            app:strokeColor="@color/green"
+            app:strokeWidth="3dp">
+
+        </Button>
+
+        <Button
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_marginStart="11dp"
+            android:id="@+id/btn5"
+            android:textSize="36sp"
+            android:onClick="Check"
+            android:textColor="@color/green"
+            android:backgroundTint="@color/gray"
+            app:strokeColor="@color/green"
+            app:strokeWidth="3dp">
+
+        </Button>
+
+        <Button
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_marginStart="11dp"
+            android:id="@+id/btn6"
+            android:textSize="36sp"
+            android:onClick="Check"
+            android:textColor="@color/green"
+            android:backgroundTint="@color/gray"
+            app:strokeColor="@color/green"
+            app:strokeWidth="3dp">
+
+        </Button>
+
+        <Button
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:id="@+id/btn7"
+            android:textSize="36sp"
+            android:onClick="Check"
+            android:textColor="@color/green"
+            android:backgroundTint="@color/gray"
+            app:strokeColor="@color/green"
+            app:strokeWidth="3dp">
+
+        </Button>
+
+        <Button
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_marginStart="11dp"
+            android:onClick="Check"
+            android:textSize="36sp"
+            android:id="@+id/btn8"
+            android:textColor="@color/green"
+            android:backgroundTint="@color/gray"
+            app:strokeColor="@color/green"
+            app:strokeWidth="3dp">
+
+        </Button>
+
+        <Button
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_marginStart="11dp"
+            android:onClick="Check"
+            android:textSize="36sp"
+            android:id="@+id/btn9"
+            android:textColor="@color/green"
+            android:backgroundTint="@color/gray"
+            app:strokeColor="@color/green"
+            app:strokeWidth="3dp">
+
+        </Button>
+
+
+    </GridLayout>
+
+
+
+</LinearLayout>
